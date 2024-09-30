@@ -1,0 +1,25 @@
+.habits_container {
+    padding: 0 5%;
+    margin-bottom: 50px;
+
+}
+
+.habits_container img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.habitsDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.habitsDescription p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

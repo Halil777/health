@@ -1,0 +1,25 @@
+.navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    background-color: lightgray;
+    padding: 0 5%;
+}
+
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+.nav_links a:hover {
+    color: orange;
+}

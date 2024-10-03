@@ -1,0 +1,38 @@
+.home_container {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+.home_left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home_left h1 {
+  text-align: left;
+  color: #199ed3;
+}
+
+.home_left h3 {
+  color: #15634c;
+}
+
+.home_left p {
+  color: #54595f;
+  line-height: 1.5;
+  font-size: 17px;
+  width: 90%;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.home_right {
+  width: 40%;
+}
+
+.home_right img {
+  width: 100%;
+}
